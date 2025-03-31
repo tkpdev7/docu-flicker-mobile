@@ -32,7 +32,7 @@ const Index = () => {
   return (
     <div className="flex flex-col h-screen bg-pdf-background">
       <header className="bg-white border-b px-4 py-3 shadow-sm flex items-center">
-        <h1 className="text-lg font-semibold text-pdf-text">DocuFlicker</h1>
+        <h1 className="text-lg font-semibold text-pdf-text">Dharani Flicker</h1>
         <div className="ml-auto">
           <Button 
             variant="outline" 
