@@ -119,6 +119,8 @@ const PDFViewer: React.FC<PDFViewerProps> = ({ url, className }) => {
               renderAnnotationLayer={true}
               loading={<PDFLoadingIndicator />}
               className="shadow-lg rounded-lg my-2"
+              width={undefined}
+              height={undefined}
             />
           </Document>
         )}

@@ -11,10 +11,14 @@
   @apply mb-4 shadow-lg rounded-md overflow-hidden;
   max-width: 100%;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .react-pdf__Page__canvas {
-  @apply max-w-full h-auto;
+  @apply max-w-full h-auto !important;
+  width: auto !important;
+  height: auto !important;
 }
 
 .react-pdf__Page__annotations.annotationLayer {
