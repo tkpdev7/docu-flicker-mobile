@@ -10,6 +10,15 @@ const config: CapacitorConfig = {
     url: "https://59640a2f-467f-4711-b707-151b0c577cd5.lovableproject.com?forceHideBadge=true",
     cleartext: true
   },
+  android: {
+    buildOptions: {
+      keystorePath: null,
+      keystorePassword: null,
+      keystoreAlias: null,
+      keystoreAliasPassword: null,
+      releaseType: 'APK'
+    }
+  },
 };
 
 export default config;
